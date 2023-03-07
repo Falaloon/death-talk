@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <title>DEATH TALK: About Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+            <p class="Menu">
+                <a class="item1 " href="Index.html">Home</a>
+                <a class="item2 AboutUs A" href="About Us.html">About Us</a>
+                <a class="item3 " href="Activity.html">Activity</a>
+                <a class="item4" href="Review.html">Review</a>
+                <a class="item5" href="Our Member.html">Member</a>
+                <a class="item6" href="Contact.html">Contact Us</a>
+           </p>
+       </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="DT2020.jpg" style="width:100%">
+            <div class="text">Death Tour 2020 โปรแกรมทัวร์ความตาย</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="DT2021.jpg" style="width:100%">
+            <div class="text">Death Talk Knock Your Mind 2021</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="DT 2022.jpg" style="width:100%">
+            <div class="text">Death Fes(tival) 2022</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+    <script>  
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+    </script>
+        <h1 class="why">ทำไมถึงมี Death Talk</h1>
+        <p class="Background">จากการบอกเล่าของรุ่นพี่คนหนึ่งที่เล่าถึงประสบการณ์ใกล้ความตาย ที่เขาเผชิญจากอุบัติเหตุทางรถยนต์ เหตุการณ์นั้นทำให้เขาตระหนักได้ว่าความตายนั้นอยู่ใกล้ตัวกว่าที่คิด และได้ตระหนักถึงการใช้ชีวิตที่มีอยู่ให้คุ้มค่า 
+            พวกเราเกิดความสนใจในหัวข้อดังกล่าว จึงเกิดการส่งต่อเจตนารมณ์การตระหนักรู้คุณค่าของชีวิต เกิดเป็นคำถามว่าเราจะส่งต่อการตระหนักรู้ของการมีชีวิต-ความตายในรูปแบบใดดี ที่สามารถสร้างความตายให้เป็นเรื่องที่พูดถึงได้  ไม่จำกัดมุมมอง และทัศนคติ 
+            ในปี 2563 เราจึงจัดกิจกรรมและวงสนทนาขึ้นมาอย่างหลากหลาย จนกระทั่งได้มีโอกาสจัดกิจกรรมระดับผู้เข้าร่วมจำนวน 100 คน ที่ชื่อว่า "Death tour โปรแกรมทัวร์ความตาย" ที่จะพาทุกคนไปสำรวจชีวิต ความฝัน และความสัมพันธ์ขึ้นมา โดยเราพยายามรวบรวมกิจกรรมที่สร้างมุมมองเรื่องความตายให้มากที่สุด เช่น การเตรียมตัวตาย การใช้ชีวิตเมื่อมีโอกาสทำสิ่งต่าง ๆ การจำลองนอนในโลงศพ และการเดทผ่านโลงศพ เป็นต้น
+        </p>
+    </body>
+    <footer class="footer">
+        <p>Copyright 2023</p>
+    </footer>
+
+</html>

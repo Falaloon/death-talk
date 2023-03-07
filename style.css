@@ -1,65 +1,35 @@
-/* Page 1 HOME*/
+/* Homepage */
 html,body{
     background-color: white;
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
-.Banner{
+.banner{
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.Menu {
-    background-color: #d9b554    ;
+.menu {
+    background-color: #d9b554;
 }
-.item1{
+
+.menu-item{
     color: black;
     padding: 15px;
     display: inline-block;
     text-decoration: 0;
 }
-.H{
+
+.menu-active{
     color:#f8f7f6    ;
     font: size 40px;
     font-weight: 600;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: 0;
-}
-.item2{
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: 0;
-}
-.item3{
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: 0;
-}
-.item4{
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: 0;
-}
-.item5{
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: 0;
-}
-.item6{
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: 0;
 }
 
 .context{
@@ -73,13 +43,7 @@ body{
     color: white;
 }
 /* Page 2 About us*/
-.AboutUs{
-    color:#f8f7f6    ;
-    font: size 40px;
-    font-weight: 600;
-}
-
-.Background{
+.background{
     margin-top: 50px;
 }
 
@@ -147,7 +111,7 @@ body{
     transition: background-color 0.6s ease;
 }
   
-  .active, .dot:hover {
+.active, .dot:hover {
     background-color: #717171;
 }
   
@@ -165,7 +129,7 @@ body{
     text-align: center;
 }
 
-.Background{
+.background{
     background-color: #f8f7f6  ;
     margin-top: 20px;
     margin-left: 80px;
@@ -174,29 +138,4 @@ body{
     font-size: 20px;
     padding: 10px;
 
-}
-/* Page 3 Activity */
-.Activity{
-    color:#f8f7f6    ;
-    font: size 40px;
-    font-weight: 600; 
-}
-/* Page 4 Review */
-.Review{
-    color:#f8f7f6    ;
-    font: size 40px;
-    font-weight: 600; 
-}
-/* Page 5 Member */
-.Member{
-    color:#f8f7f6    ;
-    font: size 40px;
-    font-weight: 600; 
-}
-
-/* Page 4 Contact Us */
-.Contact{
-    color:#f8f7f6    ;
-    font: size 40px;
-    font-weight: 600;
 }

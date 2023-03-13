@@ -139,3 +139,28 @@ body{
     padding: 10px;
 
 }
+
+/* Page 6 contact us*/
+.grid{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px minmax(250px, auto) minmax(250px, auto) minmax(250px, auto);
+    grid-template-areas:
+    'header header header'
+    'content content content';
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.page-header{
+    grid-area: header;
+}
+
+.content{
+    background-color:#f8f7f6;
+    border: 1px solid #453f3d;
+    padding: 16px;
+}
